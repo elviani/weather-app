@@ -1,0 +1,5 @@
+<select (change)="changeCity()"
+  [(ngModel)]="currentCity">
+  <option value="">Please select a city</option>
+  <option *ngFor="let city of cityList" [value]="city"> {{ city }}</option>
+</select>

@@ -1,0 +1,18 @@
+h3 {
+  padding-block-start: 20px;
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: row wrap;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.item {
+  inline-size: 200px;
+  block-size: 300px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
