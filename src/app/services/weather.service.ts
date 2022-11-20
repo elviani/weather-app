@@ -10,7 +10,7 @@ export class WeatherService {
     q: '',
     cnt: '40',
     units: 'metric',
-    APPID: 'fe3695759da76e0c9dcaf566634a08ed'
+    APPID: 'CHANGE_TO_YOUR_APP_ID'
   };
 
   constructor(private http: HttpClient) { }
