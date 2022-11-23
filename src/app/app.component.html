@@ -50,7 +50,7 @@
   <h2>Weather Forecast Application</h2>
   <app-city-selection [cityList]="cityList" (searchCity)="searchCity($event)"></app-city-selection>
   <app-weather-results [weatherResults]="weatherResult$ | async" [city]="currentCity"></app-weather-results>
-  <p class="error-message" aria-live="alert"> {{errorMessage}} </p>
+  <p class="error-message" aria-live="assertive" role="alert" *ngIf="errorMessage"> {{errorMessage}} </p>
 </div>
 
 <router-outlet></router-outlet>
